@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    color: rgb(37, 5, 151);
+    align-items: center;
+    margin: 0px 20px;
+    font-size: 20px;
+    margin-right: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#logo img{
+    height: 35px;
+}
+
+#navbar{
+    background-color: aquamarine;
+    padding: 13px 14px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;      
+}
+
+#navbar li{
+    list-style: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#navbar li a{
+    font-size: 20px;  
+    text-decoration: none;
+    padding: 13px 30px;
+}
+#navbar li a:hover{
+    color: brown;
+  }
+
+#introSection{
+    font-size: 2rem;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 450px;
+    background-color: rgb(223, 70, 10);
+}
+
+#missionSection{    
+    height:  400px;
+    background-color: rgb(140, 111, 243);
+}
+
+#missionSection h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Licorice', cursive;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 190px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit; 
+}
+
+#sponsorsSection{    
+    height: 228px;
+    background-color: rgb(243, 119, 111);
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Licorice', cursive;
+}
+
+#sponsors{   
+    height: 190px;
+    max-width: 730px;
+    margin: auto
+}
+
+.spImage{
+    height: 80px;
+    margin: 20px;
+}
+#footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50px; 
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+}

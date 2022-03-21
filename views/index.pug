@@ -1,0 +1,60 @@
+//- index.pug
+doctype html
+html
+  head
+    title Valorant Pro 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul 
+        div#logo
+          img(src="/static/img/aim.png")
+          | YGA                       
+        li #[a(href="/") Home ]
+        li #[a(href="/") About ]
+        li #[a(href="/") Services ]
+        li #[a(href="/") Class Info ]
+        li #[a(href="/") Contact us   ]
+
+    section#introSection 
+      div Welcome to COBRA gaming Academy 
+      div Dil se radiant
+    section#missionSection 
+      h2 Our Mission
+      div.card
+        h3 Aim Perfection
+        div.card-box
+          div.card-img
+            img(src="/static/img/aim.png")
+
+          div.card-content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consectetur consequatur vitae ipsa ea corrupti sequi assumenda veniam sint officiis!
+      div.card
+        h3 Strategy buildup
+        div.card-box
+          div.card-img
+            img(src="/static/img/st.png")
+
+          div.card-content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consectetur consequatur vitae ipsa ea corrupti sequi assumenda veniam sint officiis!
+      div.card
+        h3 Pro skins
+        div.card-box
+          div.card-img
+            img(src="/static/img/gun.png")
+
+          div.card-content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consectetur consequatur vitae ipsa ea corrupti sequi assumenda veniam sint officiis!
+
+    section#sponsorsSection 
+      h2 Our Sponsors
+      div#sponsors
+        img(src="/static/img/esp.png", alt="sponsor image", Class="spImage")
+        img(src="/static/img/nv.png", alt="sponsor image", Class="spImage")
+        img(src="/static/img/rog.png", alt="sponsor image", Class="spImage")
+        img(src="/static/img/int.png", alt="sponsor image", Class="spImage")
+    footer#footer 
+      | Copyright © 2022  Cobaragaming.com | All rights reserved 
+    script
+      include ../static/index.js

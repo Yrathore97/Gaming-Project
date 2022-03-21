@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Roboto+Mono:wght@100&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.container h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+}
+
+.container{
+    min-height: 73vh;
+    margin: 43px 0px;
+ 
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.myInput{
+    width: 500px;
+    padding: 10px;
+    margin: 8px;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 10px;    
+    outline: none;
+}
+
+.btn{
+    padding: 10px 16px;
+    font-size: 18px;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: brown;
+    cursor: pointer;
+    margin: 25px;
+    outline: none;
+}
+
